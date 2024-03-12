@@ -15,7 +15,7 @@ int is_happy_number(int n) {
         sum  += c ;
         mult *= c ;
     } 
-  	if( mult==sum )
+    if( mult==sum )
         flag = 1 ;
     return flag;
 }
@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 
     scanf("%d", &n);
 
-  	if( is_happy_number( n ) )    
+    if( is_happy_number( n ) )    
         printf (" YES \n") ;   
     else
         printf (" NO \n") ;
